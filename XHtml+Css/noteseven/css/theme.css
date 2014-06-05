@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*基本样式*/
+body{
+	background-color: #fff;
+	font-family: microsoft yahei;
+	font-size: 16px;
+	line-height: 1.5;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, p{
+	margin-bottom: 10px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+h2{
+	font-size: 1.5em;
+}
+.wrapper{
+	width:940px;
+	margin:0 auto;
+}
+
+/*页头样式（header）*/
+#header{
+	height: 110px;
+	padding-top:15px;
+	position: relative;
+}
+.ribbon-free{
+	position: absolute;
+	top:0;
+	right:30px;
+}
+.logo{
+	float: left;
+	margin-right: 20px;
+}
+.top-menu{
+	width: 586px;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.top-menu li{
+	float: left;
+	margin-right: 10px;
+	height: 42px;
+}
+.top-menu a{
+	color:#393939;
+	display: block;
+	padding: 8px;
+	margin-left: 5px;
+}
+.top-menu .active a{
+	background: url(../images/top-menu-left.gif) no-repeat left top;
+	padding:8px 30px;
+	color:#fff;
+}
+.top-menu .active {
+	background: url(../images/top-menu-right.png) no-repeat right top;
+}
