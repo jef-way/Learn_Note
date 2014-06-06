@@ -72,3 +72,31 @@ h2{
 .top-menu .active {
 	background: url(../images/top-menu-right.png) no-repeat right top;
 }
+
+/*展示部分（showcase）*/
+#showcase{
+	clear:both;
+	height: 408px;
+	margin-bottom: 20px;
+	position: relative;
+	background: url(../images/showcase-mobile.png) repeat-x;
+	color:#fff;
+}
+.iphone{
+	position:absolute;
+	right: 75px;
+	top:-40px;
+}
+.showcase-content{
+	width: 404px;
+	padding:50px 0 0 70px;
+}
+.showcase-left{
+	background: url(../images/showcase-left.png) no-repeat left top;
+	height: 100%;
+
+}
+.showcase-right{
+	background: url(../images/showcase-right.png) no-repeat right top;
+	height: 100%;
+}
