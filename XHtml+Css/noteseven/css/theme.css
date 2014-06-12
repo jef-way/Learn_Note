@@ -119,3 +119,32 @@ h2{
 #mainbody h2{
 	color: #8bbf36;
 }
+
+/*边栏部分（sidebar）*/
+#sidebar{
+	width:300px;
+	float:left;
+	margin:0 0 20px 20px;
+}
+.sidebar-box{
+	background: #222;
+	margin-bottom: 20px;
+	border-radius:20px;
+}
+.sidebar-box h3{
+	padding:10px 0 0 25px;
+	color:#fff;
+}
+.sidebar-menu li{
+	height: 47px;
+	border-top:1px solid #000;
+}
+.sidebar-menu li a{
+	display: block;
+	border-top: 1px solid #2d2d2d;
+	padding:10px 20px 10px 25px;
+	color:#fff;
+}
+.sidebar-menu .active{
+	background: #000;
+}
