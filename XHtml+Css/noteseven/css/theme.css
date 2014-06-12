@@ -100,3 +100,22 @@ h2{
 	background: url(../images/showcase-right.png) no-repeat right top;
 	height: 100%;
 }
+
+/*主体部分（mainbody）*/
+#mainbody{
+	width: 620px;
+	float: left;
+	margin-bottom: 20px;
+}
+#mainbody img{
+	float: left;
+	width:40px;
+	height:40px;
+	margin:10px 20px 70px 0;
+}
+#mainbody p{
+	margin-bottom: 35px;
+}
+#mainbody h2{
+	color: #8bbf36;
+}
