@@ -148,3 +148,22 @@ h2{
 .sidebar-menu .active{
 	background: #000;
 }
+.sidebar-box p{
+	color:#fff;
+	padding:10px 25px;
+}
+.sidebar-quote-bottom{
+	height: 28px;
+	background: url(../images/sidebar-quoe-bottom.png) no-repeat;
+	margin-top:-22px;
+	margin-left: 40px;
+}
+.user img{
+	float:left;
+	margin-right: 15px;
+}
+.user p{
+	font-size: 18px;
+	color:#a4a0a0;
+	font-weight: bold;
+}
