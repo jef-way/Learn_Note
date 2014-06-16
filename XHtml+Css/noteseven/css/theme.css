@@ -1,5 +1,23 @@
 @charset "utf-8";
 
+/*clearfix*/
+.clearfix:after{
+	clear:both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+.clear{
+	display: inline-block;
+}
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display: block;
+}
+
 /*基本样式*/
 body{
 	background-color: #fff;
@@ -29,6 +47,9 @@ h2{
 .wrapper{
 	width:940px;
 	margin:0 auto;
+}
+.clear{
+	clear:both;
 }
 
 /*页头样式（header）*/
@@ -166,4 +187,61 @@ h2{
 	font-size: 18px;
 	color:#a4a0a0;
 	font-weight: bold;
+}
+
+/*特色部分（feature）*/
+#feature{
+	clear:both;
+	border-top:1px solid #ccc;
+	padding:30px 0;
+}
+.box-1, .box-2, .box-3{
+	float:left;
+	width:300px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.box-3{
+	margin-right: 0;
+}
+#feature img{
+	float: left;
+	margin-right: 20px;
+	padding:5px;
+	border:1px solid #989898;
+	background: #fff;
+}
+
+/*底部样式（bottom）*/
+#bottom{
+	clear:both;
+	background:#303030;
+	color:#fff;
+	padding:30px 0;
+}
+.social{
+	width: 330px;
+	float:left;
+}
+.faq{
+	width: 480px;
+	float: left;
+	margin-left: 120px;
+}
+.faq h3{
+	border-top: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.faq li{
+	background: url(../images/bullet.png) no-repeat left center ;
+	padding-left: 32px;
+	margin-bottom: 5px; 
+}
+
+/*页脚部分（footer）*/
+#footer{
+	clear:both;
+	background: #1f1f1f;
+	padding:30px 0;
+	color:#fff;
 }
