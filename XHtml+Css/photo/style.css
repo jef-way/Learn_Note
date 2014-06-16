@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    font-family: verdana, Geneva, sans-serif;
+    line-height: 1.2;
+    background: #363636;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+.gallery{
+    width:280px;
+    height:350px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom:20px;
+    border:2px solid #242323;
+    padding:5px 5px 20px 5px;
+    background:#fff;
+}
+.gallery img{
+    width:280px;
+    height:300px;
+}
+.gallery p{
+    text-align:center;
+    font-size: 15px;
+    color:#797777;
+}
+.gallery p span{
+    font-weight: bold;
+    color: #373737;
+    font-size: 18px;
+}
