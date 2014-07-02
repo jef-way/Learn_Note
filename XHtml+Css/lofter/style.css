@@ -1,0 +1,145 @@
+ *{ margin:0; padding:0;}
+        img{
+            border:none;
+        }
+        body{
+            font: normal 12px/20px "Microsotf Yahei", 微软雅黑, 宋体;
+            color:#666;
+            background: #f8f8f8;
+        }
+        .wrapper{
+            width:570px;
+            padding:55px 68px 75px 78px;
+            margin:0 auto;
+            background: #fff;
+        }
+        header{
+            width: 570px;
+            text-align: center;
+        }
+        header h1{
+            background: url(images/logo.png) no-repeat;
+            width: 240px;
+            height: 55px;
+            margin:0 auto 26px;
+            text-indent:-9999px;
+            overflow: hidden;
+        }
+        .banner{
+            padding: 68px 0 0; 
+            width: 570px;
+        }
+        .banner h2, .content h2{
+            padding: 0 0 16px;
+            margin: 0;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: normal;
+        }
+        .banner a{
+            display: block;
+            width:570px;
+            height:310px;
+            color:#fff;
+            text-decoration:none;
+            background: url(images/banner.jpg) no-repeat 0 0;
+        }
+        .banner a div{
+            padding: 235px 20px 8px;
+        }
+        .banner a div h3{
+            font-weight: normal;
+            font-size: 14px;
+            padding: 0 0 4px;
+        }
+        .content{
+            padding:50px 0 0;
+        }
+        .content ul li{
+            float: left;
+            width: 180px;
+            height: 269px;
+            margin:0 10px 0 0;
+            list-style: none;
+        }
+        .content li a{
+            text-decoration: none;
+        }
+        .content li p{
+            padding: 5px 0 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            color:#333;
+        }
+        .content li p span{
+            color:#aaa;
+        }
+        .more{
+            clear:both;
+            margin:20px 0 70px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .more a{
+            display: block;
+            width: 570px;
+            height:40px;
+            font-size: 16px;
+            line-height: 40px;
+            letter-spacing: 3px;
+            color:#f8f8f8;
+            text-decoration: none;
+            background: #666;
+        }
+        .icon{
+            width: 570px;
+            margin-bottom: 100px;
+            border-top: 1px solid #ddd;
+        }
+        .icon .inner{
+            padding-top: 15px;
+            width: 570px;
+            text-align: center;
+        }
+        .inner .left{
+            width: 50%;
+            float: left;
+            height: 110px;
+            border-right: 1px solid #ddd;
+        }
+        .inner .left p, .inner .right p{
+            margin-bottom: 20px;
+        }
+        .iphone, .android, .ipod, .lofter, .sina, .douban{
+            display: inline;
+            width: 57px;
+            height: 58px;
+            float: left;
+            color:#aaa;
+            margin:0 18px;
+
+        }
+        .iphone{
+            background: url(images/icons.png) no-repeat 12px 0;
+        }
+        .android{
+            background: url(images/icons.png) no-repeat -84px 0;
+        }
+        .ipod{
+            background: url(images/icons.png) no-repeat -179px 0;
+        }.lofter{
+            background: url(images/icons.png) no-repeat -278px 0;
+        }.sina{
+            background: url(images/icons.png) no-repeat -375px 0;
+        }.douban{
+            background: url(images/icons.png) no-repeat -469px 0;
+        }
+        footer{
+            text-align: center;
+            padding-top: 20px;
+            color:#bbb;
+        }
+        .clr{
+            clear: both;
+        }
